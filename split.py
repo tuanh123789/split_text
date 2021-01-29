@@ -14,6 +14,6 @@ if __name__=='__main__':
                 with open('/all_text_{}.txt'.format(k),'w',encoding='utf-8') as file:
                     for sentence in sentences:
                         file.writelines(sentence)
-            i=0
-            k+=1
-            sentences=[]
+                i=0
+                k+=1
+                sentences=[]
