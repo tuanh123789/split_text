@@ -11,7 +11,7 @@ if __name__=='__main__':
             sentences.append(line)
             i+=1
             if i == 5000000:
-                with open('/all_text_{}.txt'.format(k),'w',encoding='utf-8') as file:
+                with open('all_text_{}.txt'.format(k),'w',encoding='utf-8') as file:
                     for sentence in sentences:
                         file.writelines(sentence)
                 i=0
